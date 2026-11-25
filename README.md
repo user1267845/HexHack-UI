@@ -3,6 +3,5 @@
 ```javascript
 javascript:(function(){fetch("https://raw.githubusercontent.com/user1267845/HexHack-UI/refs/heads/main/hexhack.js").then(function(a){if(!a.ok)throw new Error(a.status);return a.text()}).then(function(a){var c=new Blob([a],{type:"application/javascript"}),b=URL.createObjectURL(c),d=document.createElement("script");d.src=b;(document.head||document.documentElement).appendChild(d)})})();
 ```
-## Bookmarklet 2
-###### Try this if other bookmarklet doesn't work
-[bookmarklet.js](https://github.com/Alex236508/HexHack-UI/blob/main/assets/bookmarklet.js)
+###### full bookmarklet if you want
+[bookmarklet.js](dist/bookmarklet.js)
